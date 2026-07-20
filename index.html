@@ -15,14 +15,11 @@
   <!-- Cabecera de la Aplicación -->
   <header>
     <div class="logo-container" id="logo-trigger" title="Mantén presionado para entrar al panel administrativo">
-      <svg class="logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-        <line x1="12" y1="22.08" x2="12" y2="12"></line>
-      </svg>
+      <img src="logo.jpg" alt="Logo Cartopel" class="logo-img">
       <div class="logo-text">CARTOPEL<span> TRIVIA</span></div>
     </div>
     <div class="header-controls">
+      <button class="btn-icon" id="btn-reset" title="Reiniciar Trivia">🔄</button>
       <button class="btn-icon" id="btn-mute" title="Silenciar">🔊</button>
     </div>
   </header>
@@ -36,7 +33,7 @@
         <span class="intro-badge">Stand Oficial</span>
         <h1 class="intro-title">TRIVIA FUTBOLERA CARTOPEL</h1>
         <p class="intro-desc">
-          ¡Demuestra que eres el mayor apasionado del fútbol y un experto en el campeonato de la <strong>Liga PRO</strong> ecuatoriana! Responde el cuestionario y llévate increíbles premios.
+          ¡Demuestra que eres el mayor apasionado del fútbol y un experto en el tema! Responde el cuestionario y llévate increíbles premios.
         </p>
 
         <!-- Reglas de la Trivia -->
@@ -44,7 +41,7 @@
           <div class="rule-card">
             <div class="rule-icon">🎲</div>
             <h3>10 Preguntas</h3>
-            <p>Se seleccionan 10 preguntas aleatorias de nuestro banco de 50 temas.</p>
+            <p>Responde a 10 preguntas</p>
           </div>
           <div class="rule-card">
             <div class="rule-icon">⏱️</div>
